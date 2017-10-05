@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('error') {
+    stage('pipeline test') {
       steps {
         echo 'first pipeline'
         sleep 5
