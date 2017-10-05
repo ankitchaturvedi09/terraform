@@ -1,14 +1,10 @@
 pipeline {
-  agent {
-    node {
-      label 'pipe'
-    }
-    
-  }
+  agent any
   stages {
     stage('error') {
       steps {
-        echo 'this is my first pipeline'
+        echo 'first pipeline'
+        sleep 5
       }
     }
   }
